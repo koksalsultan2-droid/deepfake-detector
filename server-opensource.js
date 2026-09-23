@@ -41,7 +41,7 @@ const analyzeLimiter = rateLimit({
 const HF_TOKEN = process.env.HF_TOKEN;
 const IMAGE_MODEL = "prithivMLmods/Deep-Fake-Detector-v2-Model";
 const AUDIO_MODEL = "mo-thecreator/Deepfake-audio-detection";
-const HF_BASE = "https://api-inference.huggingface.co/models/";
+const HF_BASE = "https://router.huggingface.co/hf-inference/models/";
 
 if (!HF_TOKEN) {
   console.warn("[UYARI] HF_TOKEN tanımlı değil. .env dosyasına HF_TOKEN=xxxx ekleyin.");
