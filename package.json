@@ -4,7 +4,7 @@
   "description": "Uyeliksiz, herkese acik AI/deepfake icerik analiz servisi",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server-opensource.js"
   },
   "dependencies": {
     "express": "^4.19.2",
