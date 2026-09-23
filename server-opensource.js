@@ -39,7 +39,7 @@ const analyzeLimiter = rateLimit({
 });
 
 const HF_TOKEN = process.env.HF_TOKEN;
-const IMAGE_MODEL = "prithivMLmods/Deep-Fake-Detector-v2-Model";
+const IMAGE_MODEL = "prithivMLmods/Deepfake-Real-Class-Siglip2";
 const AUDIO_MODEL = "mo-thecreator/Deepfake-audio-detection";
 const HF_BASE = "https://router.huggingface.co/hf-inference/models/";
 
